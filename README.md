@@ -213,8 +213,8 @@ commit the changes you previously described, and finish with a pull request.
 
 ## Authors
 
-* **Andrew Lia** - GitHub: [alias012](https://github.com/alias012) -
-  LinkedIn: [AndrewLia](https://linkedin.com/in/andrew-lia)
+* **Andrew Lia**:
+  [GitHub](https://github.com/lia-andrew) - [LinkedIn](https://linkedin.com/in/andrew-lia)
 
 ## License
 
