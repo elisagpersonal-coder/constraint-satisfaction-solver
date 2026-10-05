@@ -12,6 +12,7 @@ from pathlib import Path
 from csv import reader
 import numpy as np
 
+a = [1,2]
 
 def _load_csv(path: Path) -> np.ndarray[tuple[int, int], np.float64] | None:
     """
