@@ -14,21 +14,6 @@ import numpy as np
 
 a = [1,2]
 
-def _load_csv(path: Path) -> np.ndarray[tuple[int, int], np.float64] | None:
-    """
-    Returns an array-representation of the provided file if it is in a valid format, or else None.
-
-    :param path: The path where the file can be found
-    :return: An array-representation of the provided file, or None if the file is incorrectly
-        formatted
-    """
-
-    try:
-        with open(path, newline="") as file:
-            return np.array([[np.float64(value) for value in row] for row in reader(file)],
-                            dtype=np.float64)
-    except (FileNotFoundError, ValueError):
-        return None
 
 
 def _new_centered_item(text: str) -> QTableWidgetItem:
